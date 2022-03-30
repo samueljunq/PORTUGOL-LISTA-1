@@ -1,0 +1,16 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real p, v, t, i
+		escreva("Digite o valor da prestação:")
+		leia(v)
+		escreva("Digite o valor da taxa de juros:")
+		leia(i)
+		escreva("Digite quantos dias de atraso tem a sua prestação")
+		leia(t)
+		p =v  + ( v * (i/100) * t).
+		escreva("O valor da prestação em atraso é:",p)
+	}
+}
