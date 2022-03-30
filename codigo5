@@ -1,0 +1,12 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real c, f
+		escreva("Digite a temperatura em grau C°:")
+		leia(c)
+		f = (9* c +160)/5
+		escreva("O valor da temperatura em F°:",f)
+	}
+}
