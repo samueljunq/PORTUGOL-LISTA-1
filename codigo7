@@ -1,0 +1,13 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real r, d
+		escreva("Informe o valor do montante em Reais:")
+		leia(r)
+		d = r / 2.30
+
+		escreva("O valor do seu montante em dolares é igual a:",d)
+	}
+}
