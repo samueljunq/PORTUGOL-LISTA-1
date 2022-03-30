@@ -1,0 +1,14 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real i, j
+		escreva("Digite a medida em polegadas do objeto:")
+		leia(i)
+
+		j = i  * 2.54
+
+		escreva("A medida em centimetros do objeto e:", j)
+	}
+}
