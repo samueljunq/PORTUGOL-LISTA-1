@@ -1,0 +1,20 @@
+programa
+{
+	inclua biblioteca Matematica
+	
+	funcao inicio()
+	{
+	real: x1, x2, y1, y2, d, d1
+	
+	escreva("Informe o primeiro ponto do plano(x,y):\n")
+	leia(x1, x2)
+
+	escreva("Informe o segundo ponto do plano(x,y):\n")
+	leia(y1, y2)
+
+	d1 = (((x2 - x1) * (x2 - x1)) + ((y2- y1) * (y2 - y1)))
+	d = Matematica.raiz(d1, 2)
+
+	escreva("A distância entre os dois pontos é: " + d)
+	}
+}
