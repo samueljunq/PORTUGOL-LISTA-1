@@ -1,0 +1,20 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real i, j, k, x
+		escreva("Digite o primeiro valor:")
+		leia(i)
+
+		escreva("Digite o segundo valor:")
+		leia(j)
+
+		escreva("Digite o terceiro valor:")
+		leia(k)
+
+		x = i + j +k
+
+		escreva("A soma dos valores e:",x)
+	}
+}
