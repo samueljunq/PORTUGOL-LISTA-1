@@ -1,0 +1,23 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real a, b, c, x, y
+		escreva("Informe o valor de A:")
+		leia(a)
+
+		escreva ("Informe o valor de B:")
+		leia(b)
+
+		escreva ("Informe o valor de C:")
+		leia(c)
+
+		escreva("Informe o valor de X:")
+		leia(x)
+
+		y = ((a + b + c) /x)
+
+		escreva("O resultado do calculo e:",y)
+	}
+}
